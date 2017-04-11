@@ -9,10 +9,8 @@ public class Main {
 
 
         int sugarq = 2500;
-        myCake.setSugar(sugarq);
 
         double butterkg = 1.2;
-        myCake.setButterquantity(butterkg);
 
 
 

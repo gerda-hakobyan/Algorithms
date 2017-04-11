@@ -5,11 +5,17 @@ package com.vle;
  */
 public class ButterForCake {
     double quantity;
-
     char kg = 'k';
-    void setButterquantity(double quantity){
 
-        this.quantity = quantity;
+    void setButterQuantity(double lkj) {
+
+        this.quantity = lkj;
     }
 
+    double getButterQuantity() {
+
+        return this.quantity ;
+    }
 }
+
+

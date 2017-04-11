@@ -7,6 +7,7 @@ public class SugarForCake {
 
    int quantity;
     char gr = 'g';
+
     void setSugarquantity(int quantity){
 
         this.quantity = quantity;

@@ -12,21 +12,21 @@ public class Cake {
         this.eggQuantity = eggQuattity;
     }
     int getEggQuantity(){
-
         return this.eggQuantity;
     }
-    void setSugar(int Sugarquantity) {
-        this.sugar.setSugarquantity(Sugarquantity);
-        setButterquantity(Sugarquantity);
-    }
+
     void setSugarobject(SugarForCake vle){
         this.sugar  = vle;
-
+    }
+    SugarForCake getSugar(){
+        return this.sugar;
     }
 
-    void setButterquantity(double Butterquantity) {
+    void setButter(ButterForCake nba){
+        this.butter = nba;
+    }
 
-        this.butter.setButterquantity(Butterquantity);
-
+    ButterForCake getButter(){
+        return  this.butter;
     }
 }
